@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    /* background-image: url(./Luxe.jpg); */
+}
+
+#layout{
+    width: 100%;
+    height: 100%;
+    /* background-color: #eeccdd69; */
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 10vh;
+    /* background-color: #fff; */
+}
+
+#nav h2{
+    color: #9e2c54;
+}
+
+#links a{
+    text-decoration: none;
+    padding: 1vw;
+    /* display: flex; */
+    /* padding: 1vw; */
+    /* justify-content: space-between; */
+    /* gap: 1vh; */
+
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+    /* background-color: antiquewhite; */
+}
+
+#bleft{
+    position: relative;
+    padding-left: 22vh;
+    padding-top: 6vh;
+    width: 50%;
+    min-height: 90vh;
+    /* background-color: aqua; */
+    /* padding-right: 0; */
+}
+
+#blefttop{
+    width: 100%;
+    min-height: 50vh;
+    /* background-color: aquamarine; */
+}
+
+#blefttop h5{
+    padding-bottom: 1vh;
+}
+
+#blefttop h1{
+    padding-bottom: 2vh;
+}
+
+#blefttop p{
+    padding-bottom: 6vh;
+}
+
+#blefttop button{
+    width: 10vw;
+    min-height: 8vh;
+    border-radius: 15%;
+    border: none;
+    color: #fff;
+    background-color: #dc0155;
+}
+
+#bleftbottom{
+    position: absolute;
+    width: 100%;
+    min-height: 40vh;
+    /* background-color: blue; */
+    padding-right: 0;
+}
+
+#bleftbottom h2{
+    padding-bottom: 5vh;
+    letter-spacing: 0.1px;
+}
+
+#services{
+    display: flex;
+    gap: 6vw;
+    padding-bottom: 2vh;
+    /* padding: 2vh; */
+    /* padding-top: 3vh; */
+    /* background-color: #dc0155; */
+}
+
+#services i{
+    color: #9e2c54;
+    font-size: 50px;
+    /* left: -1px; */
+    /* padding-bottom: 10vh; */
+}
+
+
+#bright{
+    width: 50%;
+    min-height: 90vh;
+    /* background-color: #9e2c54; */
+}
+
+#brightimage{
+    width: 80%;
+    min-height: 70vh;
+    background-image: url(./brightimage2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#project2k{
+    display: flex;
+    background-color: aliceblue;
+    width: 8vw;
+    min-height: 10vh;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+#project2k #icon i{
+    /* padding-right: 1vw; */
+    color: #dc0155;
+    font-size: 40px;
+}
+
+#project2k #text h3{
+    font-size: 15px;
+}
+
+#project2k #text p{
+    font-size: 12px;
+    /* font-weight: 1px; */
+}
+
+#star{
+    display: flex;
+    background-color: aliceblue;
+    width: 10vw;
+    min-height: 8vh;
+    gap: 2px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 8vw; */
+    border-radius: 15%;
+    padding: 1vw 1vw;
+}
+
+#star #icon i{
+    color: yellow;
+    font-size: 40px;
+}
+
+#star #text h3{
+    font-size: 15px;
+}
+
+#star #text p{
+    font-size: 12px;
+    /* font-weight: 1px; */
+}
+
+#product_manager{
+    display: flex;
+    background-color: aliceblue;
+    width: 15vw;
+    min-height: 6vh;
+    gap: 2px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 8vw; */
+    border-radius: 15%;
+    padding: 1vw 1vw;
+}
+
+#product_manager #icon i{
+    color: #dc0155;
+    font-size: 40px;
+}
+
+#product_manager #text h3{
+    font-size: 15px;
+}
+
+#product_manager #text p{
+    font-size: 12px;
+    /* font-weight: 1px; */
+}
